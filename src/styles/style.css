@@ -1,0 +1,178 @@
+html,
+body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font: 14px Helvetica, sans-serif;
+}
+
+.header{
+	height: 170px;
+	color: #fff;
+	background: url(../../src/img/hotel-sheraton.jpg) no-repeat 50% 100%;
+}
+
+.container{
+	width: 320px;
+	margin: 0 auto;
+}
+
+.container_header{
+	height: 50px;
+	width: 320px;
+	background: #35363c;
+}
+
+.header__block-left{
+	height: 50px;
+	width: 50px;
+	background: #4b4c51;
+	display: inline-block;
+	
+}
+
+.header__city{
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	display: inline-block;
+	vertical-align: text-bottom;
+	margin: 0 0 5px 14px;
+	
+}
+
+.header__logo{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 0 8px 96px;
+}
+
+.link-back{
+	display: inline-block;
+	margin: 15px 0 0 15px;
+}
+
+.header-date{
+	text-align: center;
+	font-size: 11px;
+	margin: 9px 20px 0 9px;
+}
+
+.header__site-description{
+	text-align: center;
+	font-size: 15px;
+	margin: 9px 20px 0 0;
+}
+
+.header__location{
+	text-align: center;
+	font-size: 12px;
+	margin: 5px 0 0;
+}
+
+.raiting{
+	margin: 15px 0 0 123px;
+}
+
+.raiting__star{
+	display: inline-block;
+}
+
+.hotel_review{
+	text-align: center;
+	font-size: 12px;
+	margin: 5px 0 0 7px;
+}
+
+.room{
+	height: 158px;
+	width: 280px;
+	background: #1e1f26;
+	margin: 17px 0 0 19px;
+	font-size: 12px;
+	color: #fff;
+}
+
+.room-type{
+	display: inline-block;
+	margin: 15px 0 0 15px;
+	font-size: 14px;
+	color: #7d7e80;
+}
+
+.cost{
+	display: inline-block;
+	margin: 0 0 0 68px;
+	font-size: 15px;
+}
+
+.room-list{
+	margin: 14px 0 0 -8px;
+	font-size: 12px;
+	line-height: 17px;
+}
+
+.change-date{
+	text-align: center;
+	font-size: 11px;
+	margin: 80px 29px 0 9px;
+}
+
+.btn{
+	height: 33px;
+	width: 135px;
+	border-radius: 16px;
+	text-transform: uppercase;
+	margin: 18px 0 0 91px;
+	color: #fff;
+	background: #8e8f92;
+	border: 1px;
+	outline: none;
+}
+
+.information-room{
+	margin: 40px 0 0 18px;
+}
+
+.information-list{
+	margin: 7px 0 0 -4px;
+}
+
+.services-room{
+	margin: 45px 0 0 19px;
+}
+
+.services-list{
+	margin: 6px 0 0 -11px;
+}
+
+.additional-link{
+	display: inline-block;
+	margin: 24px 0 0 22px;
+}
+
+.additional-link:hover{
+	color: red;
+}
+
+.location__disposition{
+	margin: 40px 0 0 20px;
+}
+
+.location__city{
+	margin: 6px 0 0 16px;
+}
+
+.location__address{
+	margin: 3px 0 0 19px;
+}
+
+.btn_reservation{
+	height: 48px;
+	width: 218px;
+	text-transform: uppercase;
+	background: #db0536;
+	border-radius: 28px;
+	margin: 247px 0 0 52px;
+}
