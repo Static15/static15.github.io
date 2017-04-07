@@ -6,6 +6,7 @@ body{
 
 body{
 	font: 14px Helvetica, sans-serif;
+	margin-bottom: 45px;
 }
 
 .header{
@@ -56,19 +57,20 @@ body{
 .header-date{
 	text-align: center;
 	font-size: 11px;
-	margin: 9px 20px 0 9px;
+	margin: 0 16px 0 0;
+	padding: 9px 0 9px 0;
 }
 
 .header__site-description{
 	text-align: center;
-	font-size: 15px;
-	margin: 9px 20px 0 0;
+	letter-spacing: 0.04em;
+	font: 15px 'ProximaNovaBold';
 }
 
 .header__location{
 	text-align: center;
 	font-size: 12px;
-	margin: 5px 0 0;
+	margin-top: 4px;
 }
 
 .raiting{
@@ -96,21 +98,22 @@ body{
 
 .room-type{
 	display: inline-block;
-	margin: 15px 0 0 15px;
-	font-size: 14px;
+	margin: 13px 0 0 16px;
 	color: #7d7e80;
+	font: 16px 'ProximaNovaBold';
 }
 
 .cost{
 	display: inline-block;
-	margin: 0 0 0 68px;
-	font-size: 15px;
+	margin: 0 0 0 56px;
+	font: 16px 'ProximaNovaBold';
 }
 
 .room-list{
-	margin: 14px 0 0 -8px;
+	margin: 14px 0;
 	font-size: 12px;
 	line-height: 17px;
+	padding: 0 32px;
 }
 
 .change-date{
@@ -121,7 +124,6 @@ body{
 
 .btn{
 	height: 33px;
-	width: 135px;
 	border-radius: 16px;
 	text-transform: uppercase;
 	margin: 18px 0 0 91px;
@@ -129,6 +131,12 @@ body{
 	background: #8e8f92;
 	border: 1px;
 	outline: none;
+	padding: 0 38px 0 35px;
+	font-size: 11px;
+}
+
+.btn:hover{
+	background: #ac0027;
 }
 
 .information-room{
@@ -150,10 +158,12 @@ body{
 .additional-link{
 	display: inline-block;
 	margin: 24px 0 0 22px;
+	text-decoration: none;
 }
 
 .additional-link:hover{
 	color: red;
+	text-decoration: underline;
 }
 
 .location__disposition{
@@ -174,5 +184,6 @@ body{
 	text-transform: uppercase;
 	background: #db0536;
 	border-radius: 28px;
-	margin: 247px 0 0 52px;
+	margin: 44px 0 0 52px;
+	padding: 0 61px 0 64px;
 }
