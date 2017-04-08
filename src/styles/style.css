@@ -5,7 +5,7 @@ body{
 }
 
 body{
-	font: 14px Helvetica, sans-serif;
+	font: 14px 'ProximaNovaLight' Helvetica, sans-serif;
 	margin-bottom: 45px;
 }
 
@@ -56,15 +56,19 @@ body{
 
 .header-date{
 	text-align: center;
-	font-size: 11px;
-	margin: 0 16px 0 0;
-	padding: 9px 0 9px 0;
+	font-size: 12px;
+	padding: 9px 16px 6px 0;
 }
 
 .header__site-description{
 	text-align: center;
 	letter-spacing: 0.04em;
-	font: 15px 'ProximaNovaBold';
+	font: 15px 'ProximaNovaBold', Helvetica sans-serif;
+}
+
+.icons{
+	position: relative;
+	left: 7px;
 }
 
 .header__location{
@@ -118,8 +122,8 @@ body{
 
 .change-date{
 	text-align: center;
-	font-size: 11px;
-	margin: 80px 29px 0 9px;
+	font-size: 12px;
+	margin: 80px 30px 0 10px;
 }
 
 .btn{
@@ -140,7 +144,8 @@ body{
 }
 
 .information-room{
-	margin: 40px 0 0 18px;
+	margin: 37px 0 0 20px;
+	font: 16px 'ProximaNovaBold';
 }
 
 .information-list{
