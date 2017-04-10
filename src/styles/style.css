@@ -69,6 +69,7 @@ body{
 .icons{
 	position: relative;
 	left: 7px;
+	display: inline-block;
 }
 
 .header__location{
@@ -80,7 +81,7 @@ body{
 .hotel_review{
 	text-align: center;
 	font-size: 12px;
-	margin-left: 7px;
+	margin: 5px 0 0 7px;
 }
 
 .room{
@@ -164,11 +165,11 @@ body{
 }
 
 .location__disposition{
-	margin: 40px 0 0 20px;
+	margin: 12px 0 0 20px;
 }
 
 .location__city{
-	margin: 6px 0 0 16px;
+	margin: 5px 0 0 18px;
 }
 
 .location__address{
@@ -181,7 +182,7 @@ body{
 	text-transform: uppercase;
 	background: #db0536;
 	border-radius: 28px;
-	margin: 44px 0 0 52px;
+	margin: 15px 0 0 55px;
 	padding: 0 61px 0 64px;
 }
 
@@ -194,7 +195,7 @@ body{
 input { 
   display: none; }
 
-label.star {
+.rating__img {
   float: right;
   font-size: 16px;
   padding: 0 1px 0 1px;
@@ -202,19 +203,23 @@ label.star {
   transition: all .2s;
 }
 
-input.star:checked ~ label.star:before {
+.rating__input:checked ~ .rating__img:before {
   content: '\2605';
   color: #FD4;
   transition: all .25s;
 }
 
-input.star-5:checked ~ label.star:before {
+.rating__input_star-5:checked ~ .rating__img:before {
   color: #FE7;
 }
 
-input.star-1:checked ~ label.star:before {
+.rating__input_star-1:checked ~ .rating__img:before {
  color: #F62; }
 
-label.star:before {
+.rating__img:before {
   content: '\2605';
+}
+
+iframe{
+	margin: 15px 0 0 20px;
 }
