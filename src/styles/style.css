@@ -35,18 +35,17 @@ body{
 }
 
 .header__city{
-	font-family: Helvetica, sans-serif;
-	font-size: 14px;
+	font: 16px 'ProximaNovaLight', Helvetica, sans-serif;
 	display: inline-block;
 	vertical-align: text-bottom;
-	margin: 0 0 5px 14px;
+	margin: 0 0 3px 14px;
 	
 }
 
 .header__logo{
 	display: inline-block;
 	vertical-align: middle;
-	margin: 0 0 8px 96px;
+	margin: 0 0 8px 84px;
 }
 
 .link-back{
@@ -74,21 +73,20 @@ body{
 
 .header__location{
 	text-align: center;
-	font-size: 12px;
+	font: 12px 'ProximaNovaLight';
 	margin-top: 4px;
 }
 
 .hotel_review{
 	text-align: center;
-	font-size: 12px;
-	margin: 5px 0 0 7px;
+	font: 12px 'ProximaNovaLight', Helvetica sans-serif;
 }
 
 .room{
 	height: 158px;
 	width: 280px;
 	background: #1e1f26;
-	margin: 17px 0 0 19px;
+	margin: 15px 0 0 19px;
 	font-size: 12px;
 	color: #fff;
 }
@@ -107,23 +105,22 @@ body{
 }
 
 .room-list{
-	margin: 14px 0;
-	font-size: 12px;
-	line-height: 17px;
-	padding: 0 32px;
+	margin: 10px 0;
+	font: 13px 'ProximaNovaLight', sans-serif ;
+	padding: 0 31px;
 }
 
 .change-date{
 	text-align: center;
 	font-size: 12px;
-	margin: 80px 30px 0 10px;
+	margin: 22px 30px 0 14px;
 }
 
 .btn{
 	height: 33px;
 	border-radius: 16px;
 	text-transform: uppercase;
-	margin: 18px 0 0 91px;
+	margin: 15px 0 0 91px;
 	color: #fff;
 	background: #8e8f92;
 	border: 1px;
@@ -137,26 +134,31 @@ body{
 }
 
 .information-room{
-	margin: 37px 0 0 20px;
-	font: 16px 'ProximaNovaBold';
+	margin: 16px 0 0 20px;
+	font: 16px 'ProximaNovaBold', Helvetica sans-serif;
 }
 
 .information-list{
-	margin: 7px 0 0 -4px;
+	padding: 0 0 0 29px;
+	margin: 4px 0 0 0;
+	font: 16px 'ProximaNovaLight', Helvetica sans-serif;
 }
 
 .services-room{
-	margin: 45px 0 0 19px;
+	margin: 33px 0 0 21px;
+	font: 16px 'ProximaNovaBold', Helvetica sans-serif;
 }
 
 .services-list{
 	margin: 6px 0 0 -11px;
+	font: 16px 'ProximaNovaLight', Helvetica sans-serif;
 }
 
 .additional-link{
 	display: inline-block;
-	margin: 24px 0 0 22px;
+	margin: 4px 0 0 21px;
 	text-decoration: none;
+	font: 16px 'ProximaNovaLight', Helvetica sans-serif;
 }
 
 .additional-link:hover{
@@ -165,25 +167,29 @@ body{
 }
 
 .location__disposition{
-	margin: 12px 0 0 20px;
+	margin: 16px 0 0 20px;
+	font: 16px 'ProximaNovaBold', Helvetica sans-serif;
 }
 
 .location__city{
-	margin: 5px 0 0 18px;
+	margin: 5px 0 0 25px;
+	font: 14px 'ProximaNovaLight', Helvetica sans-serif;
 }
 
 .location__address{
-	margin: 3px 0 0 19px;
+	margin: 1px 0 0 18px;
+	font: 16px 'ProximaNovaLight', Helvetica sans-serif;
 }
 
 .btn_reservation{
 	height: 48px;
 	width: 218px;
-	text-transform: uppercase;
+	text-transform: lowercase;
 	background: #db0536;
 	border-radius: 28px;
-	margin: 15px 0 0 55px;
-	padding: 0 61px 0 64px;
+	margin: 19px 0 0 53px;
+	padding: 0 61px 0 55px;
+	font: 16px 'ProximaNovaLight', Helvetica sans-serif;
 }
 
 .rating {
@@ -197,8 +203,8 @@ input {
 
 .rating__img {
   float: right;
-  font-size: 16px;
-  padding: 0 1px 0 1px;
+  font-size: 17px;
+  padding: 0 1px 0 0;
   color: #444;
   transition: all .2s;
 }
@@ -220,6 +226,45 @@ input {
   content: '\2605';
 }
 
-iframe{
-	margin: 15px 0 0 20px;
+.rating__input:hover ~ .rating__img {
+	color: #FD4;
 }
+
+iframe{
+	margin: 13px 0 0 20px;
+}
+
+.slider__circle{
+	height: 12px;
+	width: 12px;
+	background: #d7d7d8;
+	border-radius: 10px;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.slider__circle:hover{
+	background: #9a9a9d;
+}
+
+.slider{
+	margin: 23px 20px 0 0;
+	text-align: center;
+
+}
+
+
+.crossline{
+	border-top: 2px solid #bbbbbd;
+	width: 280px;
+	margin: 15px 0 0 18px;
+}
+
+.crossline-2{
+	margin: 23px 0 0 19px;
+}
+
+.crossline-3{
+	margin: 19px 0 0 19px;
+}
+
