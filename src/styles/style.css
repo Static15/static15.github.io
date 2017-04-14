@@ -106,7 +106,7 @@ body{
 	margin: 11px 0;
 	font: 14px 'ProximaNovaLight', sans-serif ;
 	padding: 0 16px;
-	list-style: none;
+	list-style: disc;
 }
 
 .change-date{
@@ -146,7 +146,7 @@ body{
 .information-list{
 	padding: 0 0 0 19px;
 	margin: 4px 0 0 0;
-	list-style: none;
+	list-style: disc;
 	font: 16px 'ProximaNovaLight', Helvetica sans-serif;
 }
 
@@ -163,7 +163,7 @@ body{
 .services-list{
 	margin: 4px 0 0 0;
 	padding: 0 0 0 18px;
-	list-style: none;
+	list-style: disc;
 	font: 16px 'ProximaNovaLight', Helvetica sans-serif;
 }
 
@@ -288,16 +288,16 @@ iframe{
 	margin-bottom: 20%;
 }
 
-@media screen and (max-width: 768px) { /*mobile*/
+/*@media screen and (max-width: 768px) {
 	body{
 		margin: 0 auto;
 		width: auto;
 	}
-}
+}*/
 
-@media screen and (min-width: 1024px) and (max-width: 1240px)  {
+/*@media screen and (min-width: 1024px) and (max-width: 1240px)  {
 	body{
 		margin: 0 auto;
 		width: auto;
 	}
-}
+}*/
