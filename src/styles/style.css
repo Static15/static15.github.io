@@ -5,7 +5,7 @@ body{
 }
 
 body{
-	font: 14px 'ProximaNovaLight' Helvetica, sans-serif;
+	font: 14px 'ProximaNovaLight', Helvetica, sans-serif;
 	margin: 0 auto;
 	width: 320px;
 }
@@ -30,6 +30,7 @@ body{
 	width: 50px;
 	background: #4b4c51;
 	display: inline-block;
+	cursor: pointer;
 	
 }
 
@@ -37,14 +38,14 @@ body{
 	font: 16px 'ProximaNovaLight', Helvetica, sans-serif;
 	display: inline-block;
 	vertical-align: text-bottom;
-	margin: 0 0 3px 14px;
+	margin: 0 0 4px 14px;
 	
 }
 
 .header__logo{
 	display: inline-block;
 	vertical-align: middle;
-	margin: 0 0 8px 84px;
+	margin: 0 0 8px 86px;
 }
 
 .link-back{
@@ -55,7 +56,7 @@ body{
 .header-date{
 	text-align: center;
 	font-size: 12px;
-	padding: 9px 16px 6px 0;
+	padding: 9px 17px 6px 0;
 }
 
 .header__site-description{
@@ -73,7 +74,7 @@ body{
 .header__location{
 	text-align: center;
 	font: 12px 'ProximaNovaLight';
-	margin-top: 4px;
+	line-height: 23px;
 }
 
 .hotel_review{
@@ -106,7 +107,7 @@ body{
 	margin: 11px 0;
 	font: 14px 'ProximaNovaLight', sans-serif ;
 	padding: 0 16px;
-	list-style: disc;
+	list-style: none;
 }
 
 .change-date{
@@ -119,7 +120,7 @@ body{
 	height: 33px;
 	border-radius: 16px;
 	text-transform: uppercase;
-	margin: 14px 0 0 91px;
+	margin: 14px 0 0 92px;
 	color: #fff;
 	background: #8e8f92;
 	border: 1px;
@@ -139,14 +140,15 @@ body{
 }
 
 .information{
-	margin: 23px 0 0 0;
+	margin-top: 23px;
+	display: block;
 	border-top: 1px solid #bbbbbd;
 }
 
 .information-list{
-	padding: 0 0 0 19px;
+	padding: 0 0 0 20px;
 	margin: 4px 0 0 0;
-	list-style: disc;
+	list-style: none;
 	font: 16px 'ProximaNovaLight', Helvetica sans-serif;
 }
 
@@ -163,7 +165,7 @@ body{
 .services-list{
 	margin: 4px 0 0 0;
 	padding: 0 0 0 18px;
-	list-style: disc;
+	list-style: none;
 	font: 16px 'ProximaNovaLight', Helvetica sans-serif;
 }
 
@@ -176,7 +178,7 @@ body{
 	text-decoration: none;
 	cursor: pointer;
 	font: 16px 'ProximaNovaLight', Helvetica sans-serif;
-	margin: 1px 0 0 3px;
+	margin: 0 0 0 5px;
 	padding: 4px 12px 5px 16px;
 }
 
@@ -216,9 +218,10 @@ body{
 }
 
 .rating {
-  display: inline-block;
-  margin-left: 122px;
-  padding-top: 13px; 
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+  direction: rtl;
 }
 
 input { 
@@ -227,7 +230,7 @@ input {
 .rating__img {
   float: right;
   font-size: 17px;
-  padding: 0 1px 0 0;
+  padding: 0 2px 0 0;
   color: #444;
   transition: all .2s;
   cursor: pointer;
@@ -278,7 +281,7 @@ iframe{
 }
 
 .slider{
-	margin: 37px 0 0 0;
+	margin: 40px 0 0 0;
 	text-align: center;
 	border-bottom: 1px solid #bbbbbd;
 
@@ -287,17 +290,3 @@ iframe{
 .container_main-block{
 	margin-bottom: 20%;
 }
-
-/*@media screen and (max-width: 768px) {
-	body{
-		margin: 0 auto;
-		width: auto;
-	}
-}*/
-
-/*@media screen and (min-width: 1024px) and (max-width: 1240px)  {
-	body{
-		margin: 0 auto;
-		width: auto;
-	}
-}*/

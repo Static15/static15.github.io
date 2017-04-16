@@ -8,12 +8,14 @@ body{
 	font: 14px 'ProximaNovaLight' Helvetica, sans-serif;
 	background: url(../../src/img/main.png) no-repeat 50% 0;
 	color: #FFF;
-	width: 320px;
+	max-width: 320px;
 	margin: 0 auto;
+	height: 100%;
 }
 
 .container{
 	margin-bottom: 30%;
+	height: 100%;
 }
 
 .hotels{
@@ -31,7 +33,8 @@ body{
 }
 
 .logo__img{
-	margin: 54px 0 0 126px;
+	display: flex;
+	margin: 52px auto;
 }
 
 .discription{
@@ -44,10 +47,10 @@ body{
 	height: 12px;
 	width: 12px;
 	background: #d7d7d8;
-	border-radius: 10px;
+	border-radius: 50%;
 	display: inline-block;
 	opacity: 0.5;
-	margin-left: 15px;
+	margin-left: 22px;
 	cursor: pointer;
 	transition: all 0.3s ease-in-out 0s;
 	position: relative;
@@ -56,9 +59,9 @@ body{
 }
 
 .slider{
-	margin: 48px 0 0 8px;
-	text-align: center;
-
+	margin: 50px 0 0 2px;
+	display: flex;
+	justify-content: center;
 }
 
 .slider__circle:hover{
@@ -76,7 +79,8 @@ body{
 	cursor: pointer;
 	border: 1px;
 	outline: none;
-	margin: 40px 0 0 52px;
+	display: flex;
+	margin: 45px auto;
 	padding: 0 58px 0 61px;
 }
 
