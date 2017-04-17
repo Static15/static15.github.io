@@ -21,7 +21,7 @@ body{
 .hotels{
 	text-align: center;
 	text-transform: uppercase;
-	margin: 46px 0 0 3px;
+	margin: 0 auto;
 	font: 24px 'ProximaNovaBold', Helvetica sans-serif;
 }
 
@@ -29,7 +29,6 @@ body{
  	font: 24px 'ProximaNovaBold', Helvetica sans-serif;
  	text-align: center;
  	text-transform: uppercase;
- 	margin: auto;
 }
 
 .logo__img{
@@ -40,7 +39,7 @@ body{
 .discription{
 	text-align: center;
 	font: 16px 'ProximaNovaLight', Helvetica sans-serif;
-	margin: 5px 15px 0 15px;
+	padding: 4px 14px 0 12px;
 }
 
 .slider__circle{
@@ -59,7 +58,7 @@ body{
 }
 
 .slider{
-	margin: 50px 0 0 2px;
+	padding-top: 50px;
 	display: flex;
 	justify-content: center;
 }

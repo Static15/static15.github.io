@@ -44,8 +44,8 @@ body{
 
 .header__logo{
 	display: inline-block;
-	vertical-align: middle;
-	margin: 0 0 8px 86px;
+	vertical-align: sub;
+	padding-left: 85px;
 }
 
 .link-back{
@@ -92,14 +92,14 @@ body{
 
 .room-type{
 	display: inline-block;
-	margin: 13px 0 0 16px;
+	padding: 12px 0 0 17px;
 	color: #7d7e80;
 	font: 16px 'ProximaNovaBold';
 }
 
 .cost{
 	display: inline-block;
-	margin: 0 0 0 56px;
+	padding-left: 55px;
 	font: 16px 'ProximaNovaBold';
 }
 
@@ -120,7 +120,8 @@ body{
 	height: 33px;
 	border-radius: 16px;
 	text-transform: uppercase;
-	margin: 14px 0 0 92px;
+	margin: 14px auto;
+	display: flex;
 	color: #fff;
 	background: #8e8f92;
 	border: 1px;
@@ -128,6 +129,7 @@ body{
 	padding: 0 38px 0 35px;
 	font-size: 11px;
 	cursor: pointer;
+	transition: 0.3s ease-in-out 0s;
 }
 
 .btn:hover{
@@ -171,20 +173,15 @@ body{
 
 .additional-link{
 	display: inline-block;
-	border: 1px solid #db0536;
-	border-radius: 20px;
 	text-align: center;
-	color: #db0536;
-	text-decoration: none;
 	cursor: pointer;
 	font: 16px 'ProximaNovaLight', Helvetica sans-serif;
-	margin: 0 0 0 5px;
-	padding: 4px 12px 5px 16px;
+	padding: 4px 12px 9px 21px;
+	transition: 0.4s ease-in-out 0s;
 }
 
 .additional-link:hover{
-	color: #fff;
-	background: #db0536;
+	color: #db0536;
 }
 
 .location__disposition{
@@ -211,17 +208,20 @@ body{
 	text-transform: lowercase;
 	background: #db0536;
 	border-radius: 28px;
-	margin: 18px 0 0 56px;
-	padding: 0 52px 0 52px;
+	margin: 18px auto;
+	padding: 0 50px 0 60px;
 	font: 16px 'ProximaNovaLight', Helvetica sans-serif;
 	cursor: pointer;
+	transition: 0.3s ease-in-out 0s;
 }
 
 .rating {
   display: flex;
   justify-content: center;
-  margin-top: 17px;
+  line-height: 29px;
+  padding-top: 10px;
   direction: rtl;
+  transition: 0.4s ease-in-out 0s;
 }
 
 input { 
@@ -281,7 +281,7 @@ iframe{
 }
 
 .slider{
-	margin: 40px 0 0 0;
+	margin-top: 38px;
 	text-align: center;
 	border-bottom: 1px solid #bbbbbd;
 
