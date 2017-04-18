@@ -35,7 +35,7 @@ body{
 }
 
 .header__city{
-	font: 16px 'ProximaNovaLight', Helvetica, sans-serif;
+	font-size: 16px;
 	display: inline-block;
 	vertical-align: text-bottom;
 	margin: 0 0 4px 14px;
@@ -56,7 +56,7 @@ body{
 .header-date{
 	text-align: center;
 	font-size: 12px;
-	padding: 9px 17px 6px 0;
+	padding: 9px 17px 6px 9px;
 }
 
 .header__site-description{
@@ -66,33 +66,31 @@ body{
 }
 
 .icons{
-	position: relative;
-	left: 7px;
 	display: inline-block;
 }
 
 .header__location{
 	text-align: center;
-	font: 12px 'ProximaNovaLight';
+	font-size: 12px;
 	line-height: 23px;
 }
 
 .hotel_review{
 	text-align: center;
-	font: 12px 'ProximaNovaLight', Helvetica sans-serif;
+	font-size: 12px;
 }
 
 .room{
-	height: 158px;
 	background: #1e1f26;
-	margin: 16px 0 0 19px;
+	margin: 15px 0 0 19px;
 	font-size: 12px;
 	color: #fff;
+	padding-top: 2px;
 }
 
 .room-type{
 	display: inline-block;
-	padding: 12px 0 0 17px;
+	padding: 10px 0 0 17px;
 	color: #7d7e80;
 	font: 16px 'ProximaNovaBold';
 }
@@ -104,16 +102,15 @@ body{
 }
 
 .room-list{
-	margin: 11px 0;
-	font: 14px 'ProximaNovaLight', sans-serif ;
-	padding: 0 16px;
+	font-size: 14px;
+	padding: 6px 18px;
 	list-style: none;
 }
 
 .change-date{
 	text-align: center;
 	font-size: 12px;
-	margin: 24px 30px 0 14px;
+	margin: 24px 30px 0 21px;
 }
 
 .btn{
@@ -126,7 +123,7 @@ body{
 	background: #8e8f92;
 	border: 1px;
 	outline: none;
-	padding: 0 38px 0 35px;
+	padding: 0 37px 0 37px;
 	font-size: 11px;
 	cursor: pointer;
 	transition: 0.3s ease-in-out 0s;
@@ -143,7 +140,6 @@ body{
 
 .information{
 	margin-top: 23px;
-	display: block;
 	border-top: 1px solid #bbbbbd;
 }
 
@@ -151,7 +147,7 @@ body{
 	padding: 0 0 0 20px;
 	margin: 4px 0 0 0;
 	list-style: none;
-	font: 16px 'ProximaNovaLight', Helvetica sans-serif;
+	font-size: 16px;
 }
 
 .services{
@@ -160,28 +156,32 @@ body{
 }
 
 .services-room{
-	margin: 17px 0 0 21px;
+	margin: 17px 0 0 22px;
 	font: 16px 'ProximaNovaBold', Helvetica sans-serif;
 }
 
 .services-list{
 	margin: 4px 0 0 0;
-	padding: 0 0 0 18px;
+	padding: 0 0 0 20px;
 	list-style: none;
-	font: 16px 'ProximaNovaLight', Helvetica sans-serif;
+	color: black;
+	font-size: 16px;
 }
 
 .additional-link{
 	display: inline-block;
 	text-align: center;
+	text-decoration: none;
+	color: black;
 	cursor: pointer;
-	font: 16px 'ProximaNovaLight', Helvetica sans-serif;
+	font-size: 16px;
 	padding: 4px 12px 9px 21px;
 	transition: 0.4s ease-in-out 0s;
 }
 
 .additional-link:hover{
 	color: #db0536;
+	text-decoration: underline;
 }
 
 .location__disposition{
@@ -191,12 +191,12 @@ body{
 
 .location__city{
 	margin: 5px 0 0 25px;
-	font: 14px 'ProximaNovaLight', Helvetica sans-serif;
+	font-size: 14px;
 }
 
 .location__address{
 	margin: 1px 0 0 18px;
-	font: 16px 'ProximaNovaLight', Helvetica sans-serif;
+	font-size: 16px;
 }
 
 .location{
@@ -209,8 +209,8 @@ body{
 	background: #db0536;
 	border-radius: 28px;
 	margin: 18px auto;
-	padding: 0 50px 0 60px;
-	font: 16px 'ProximaNovaLight', Helvetica sans-serif;
+	padding: 0 48px 0 62px;
+	font-size: 16px;
 	cursor: pointer;
 	transition: 0.3s ease-in-out 0s;
 }
@@ -220,7 +220,7 @@ body{
   justify-content: center;
   line-height: 29px;
   padding-top: 10px;
-  direction: rtl;
+  flex-direction: row-reverse;
   transition: 0.4s ease-in-out 0s;
 }
 
@@ -289,4 +289,9 @@ iframe{
 
 .container_main-block{
 	margin-bottom: 20%;
+}
+
+.icons-block{
+	display: inline-block;
+	padding-left: 7px;
 }
