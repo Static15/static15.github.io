@@ -1,0 +1,229 @@
+html,
+body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font: 14px 'ProximaNovaRegular', Helvetica sans-serif;
+	background: url(../../src/img/main_back.png) no-repeat 54% 48% /auto;
+	color: #FFF;
+	max-width: 1799px;
+	height: 100%;
+}
+
+.container{
+	margin: 0 auto;
+	width: 1148px;
+}
+
+.container_header{
+	height: 210px;
+
+}
+
+.logo{
+	display: inline-block;
+	padding-top: 39px;
+}
+
+.logo__img{
+	padding: 0 0 0 0;
+}
+
+.description{
+	display: inline-block;
+	vertical-align: top;
+	padding: 32px 0 0 26px;
+}
+
+.hotels{
+	font: 28px 'ProximaNovaBold', Helvetica sans-serif;
+	text-transform: uppercase;
+	line-height: 0;
+}
+
+.jsb-headline{
+	font: 16px "ProximaNovaRegular", Helvetica sans-serif;
+}
+
+.container_main-block{
+	background: #fff;
+	color: black;
+	border: 1px;
+	margin: 0 auto;
+	border-radius: 8px;
+}
+
+.top-row{
+	display: flex;
+	justify-content: center;
+	padding-top: 69px;
+}
+
+.top-row__search{
+	border: none;
+	outline: none;
+	width: 85%;
+	border-bottom: 1px solid black;
+	padding-left: 33px;
+	font-size: 16px;
+}
+
+.top-row__button{
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+	visibility: hidden;
+}
+
+.top-row__button:after{
+	content: url(../../src/img/find_icon.png);
+	height: 20px;
+	width: 20px;
+	position: relative;
+	bottom: 8px;
+	right: 32px;
+	visibility: visible;
+}
+
+.options{
+	line-height: 36px;
+	padding: 44px 0 0 98px;
+}
+
+.check-in{
+	display: inline-block;
+}
+
+.check-in__select_input{
+	height: 44px;
+	width: 299px;
+	border-radius: 2px;
+	border: 1px solid;
+}
+
+.check-out{
+	display: inline-block;
+	padding-left: 5px;
+}
+
+.check-out__select_input{
+	height: 44px;
+	width: 299px;
+	border-radius: 2px;
+	border: 1px solid;
+}
+
+.checkbox-children{
+	display: inline-block;
+	padding-left: 6px;
+}
+
+.row-select{
+	height: 50px;
+	width: 106px;
+	padding-left: 16px;
+	border-radius: 2px;
+	border: 1px solid black;
+	font-size: 15px;
+	color: #db0536;
+	appearance: none;
+	-webkit-appearance: none;
+	background: url(../../src/img/arrow_down.png) 85% 60% no-repeat;
+}
+
+.checkbox-adult{
+	display: inline-block;
+	padding-left: 38px;
+}
+
+.btn{
+	height: 60px;
+	font: 18px 'ProximaNovaRegular', Helvetica sans-serif;
+	color: #FFF;
+	background: #db0536;
+	display: flex;
+	margin: 33px auto;
+	padding: 0 71px 0 71px;
+	border-radius: 34px;
+	cursor: pointer;
+	transition: 0.3s easy-in-out 0s;
+	border: 1px;
+	outline: none;
+}
+
+.btn:hover{
+	background: #ac0027;
+}
+
+.change-date{
+	text-align: center;
+	font-size: 14px;
+	padding: 3px 0 36px 0;
+}
+
+.icons-block{
+	display: inline-block;
+}
+
+.icons{
+	display: inline-block;
+	padding: 0 0 0 9px;
+}
+
+.options__checkbox{
+	text-align: center;
+	padding: 41px 0 0 20px;
+	font-size: 16px;
+}
+
+.checkbox-label{
+	padding-left: 30px;
+}
+
+.checkbox {
+    display: none;
+}
+
+.checkbox-custom {
+    width: 21px;
+    height: 21px;
+    border: 2px solid #35363c;
+    cursor: pointer;
+}
+
+.checkbox-custom,
+.checkbox-label {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.checkbox:checked + .checkbox-custom:before {
+    content: "";
+    position: relative;
+    display: flex;
+  	width: 10px;
+    height: 10px;
+    top: 5px;
+    left: 5px;
+    background: #db0536;
+}
+
+.plane-img{
+	padding-left:11px;
+	position: relative;
+	top: 7px;
+	right: 6px;
+}
+
+.checkbox-label:after{
+	content: url(../../src/img/plane.png);
+	position: relative;
+	right: 299px;
+}
+
+option{
+	background: #1e1f26;
+	color: #fff;
+}

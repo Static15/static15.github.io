@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatiable" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JSB</title>
+	<link rel="stylesheet" type="text/css" href="src/styles/page_one_desktop.css">
+	<link rel="stylesheet" type="text/css" href="src/styles/font.css">
+</head>
+<body>
+<header class="header"></header>
+	<div class="container container_header">
+		<div class="logo">
+			<img class="logo__img" src="src/img/logo_big.png" alt="JCB">
+		</div>
+		<div class="description">
+			<h1 class="hotels">Гостиницы по лучшим ценам</h1>
+			<div class="jsb-headline">JCB — лучший интернет-сервис по версии National Geographic Traveler Awards</div>
+		</div>
+	</div>
+	<div class="container container_main-block">
+		<div class="top-row">
+			<input class="top-row__search" size="120" type="search" placeholder="Направление, город, название отеля: например Париж, Милан">
+			<button class="top-row__button"></button>
+		</div>
+		<div class="options">
+			<div class="check-in">
+				<div class="check-in__date">Выберите дату вселения</div>
+				<div class="check-in__select">
+					<input class="check-in__select_input" type="text">
+				</div>
+			</div>
+			<div class="check-out">
+				<div class="check-out__date">Выберите дату отъезда</div>
+				<div class="check-out__select">
+					<input class="check-out__select_input" type="text">
+				</div>
+			</div>
+			<div class="checkbox-adult">
+				<div class="adult">Взрослых</div>
+				<select class="row-select">
+					<option class="row-select__option" value="1">1</option>
+					<option class="row-select__option" value="2">2</option>
+					<option class="row-select__option" value="3">3</option>
+					<option class="row-select__option" value="4">4</option>
+				</select>
+			</div>
+			<div class="checkbox-children">
+				<div class="children">Детей</div>
+				<select class="row-select">
+					<option class="row-select__option" value="1">1</option>
+					<option class="row-select__option" value="2">2</option>
+					<option class="row-select__option" value="3">3</option>
+					<option class="row-select__option" value="4">4</option>
+				</select>
+			</div>
+		</div>
+		<div class="options__checkbox">
+			<label>
+    			<input class="checkbox" type="checkbox" name="checkbox-test">
+    			<span class="checkbox-custom"></span>
+    			<span class="checkbox-label">Добавить перелет и получить скидку</span>
+			</label>
+		</div>
+		<button class="btn">Начать поиск</button>
+		<div class="change-date">23—25 января
+			<div class="icons-block">
+				<div class="icons">3 
+					<img class="icon" src="src/img/moon-black.png" alt="nights">
+				</div>
+				<div class="icons">2 
+					<img class="icon" src="src/img/adult-black.png" alt="adults">
+				</div>
+				<div class="icons">1 
+					<img class="icon" src="src/img/child-black.png" alt="children">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
