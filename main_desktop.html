@@ -9,36 +9,33 @@
 	<link rel="stylesheet" type="text/css" href="src/styles/font.css">
 </head>
 <body>
-<header class="header"></header>
+<header class="header">
 	<div class="container container_header">
 		<div class="logo">
 			<img class="logo__img" src="src/img/logo_big.png" alt="JCB">
 		</div>
-		<div class="description">
+		<div class="jsb-headline">
 			<h1 class="hotels">Гостиницы по лучшим ценам</h1>
-			<div class="jsb-headline">JCB — лучший интернет-сервис по версии National Geographic Traveler Awards</div>
+			<div class="description">JCB — лучший интернет-сервис по версии National Geographic Traveler Awards</div>
 		</div>
 	</div>
+</header>	
 	<div class="container container_main-block">
-		<div class="top-row">
-			<input class="top-row__search" size="120" type="search" placeholder="Направление, город, название отеля: например Париж, Милан">
-			<button class="top-row__button"></button>
+		<div class="block-search">
+			<input class="block-search__search" size="120" type="search" placeholder="Направление, город, название отеля: например Париж, Милан">
+			<button class="block-search__button"></button>
 		</div>
 		<div class="options">
 			<div class="check-in">
 				<div class="check-in__date">Выберите дату вселения</div>
-				<div class="check-in__select">
-					<input class="check-in__select_input" type="text">
-				</div>
+				<input class="check-in__input" type="date">
 			</div>
 			<div class="check-out">
 				<div class="check-out__date">Выберите дату отъезда</div>
-				<div class="check-out__select">
-					<input class="check-out__select_input" type="text">
-				</div>
+					<input class="check-out__input" type="date">
 			</div>
-			<div class="checkbox-adult">
-				<div class="adult">Взрослых</div>
+			<div class="checkbox">
+				<div class="checkbox-headline">Взрослых</div>
 				<select class="row-select">
 					<option class="row-select__option" value="1">1</option>
 					<option class="row-select__option" value="2">2</option>
@@ -46,8 +43,8 @@
 					<option class="row-select__option" value="4">4</option>
 				</select>
 			</div>
-			<div class="checkbox-children">
-				<div class="children">Детей</div>
+			<div class="checkbox">
+				<div class="checkbox-headline">Детей</div>
 				<select class="row-select">
 					<option class="row-select__option" value="1">1</option>
 					<option class="row-select__option" value="2">2</option>
@@ -58,7 +55,7 @@
 		</div>
 		<div class="options__checkbox">
 			<label>
-    			<input class="checkbox" type="checkbox" name="checkbox-test">
+    			<input class="checkbox-plane" type="checkbox" name="checkbox-test">
     			<span class="checkbox-custom"></span>
     			<span class="checkbox-label">Добавить перелет и получить скидку</span>
 			</label>

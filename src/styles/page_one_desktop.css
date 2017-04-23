@@ -6,7 +6,7 @@ body{
 
 body{
 	font: 14px 'ProximaNovaRegular', Helvetica sans-serif;
-	background: url(../../src/img/main_back.png) no-repeat 54% 48% /auto;
+	background: url(../../src/img/main_back-min.png) no-repeat 54% 48% /auto;
 	color: #FFF;
 	max-width: 1799px;
 	height: 100%;
@@ -18,7 +18,7 @@ body{
 }
 
 .container_header{
-	height: 210px;
+	min-height: 210px;
 
 }
 
@@ -27,11 +27,7 @@ body{
 	padding-top: 39px;
 }
 
-.logo__img{
-	padding: 0 0 0 0;
-}
-
-.description{
+.jsb-headline{
 	display: inline-block;
 	vertical-align: top;
 	padding: 32px 0 0 26px;
@@ -40,10 +36,10 @@ body{
 .hotels{
 	font: 28px 'ProximaNovaBold', Helvetica sans-serif;
 	text-transform: uppercase;
-	line-height: 0;
+	margin: 0 auto;
 }
 
-.jsb-headline{
+.description{
 	font: 16px "ProximaNovaRegular", Helvetica sans-serif;
 }
 
@@ -55,13 +51,13 @@ body{
 	border-radius: 8px;
 }
 
-.top-row{
+.block-search{
 	display: flex;
 	justify-content: center;
 	padding-top: 69px;
 }
 
-.top-row__search{
+.block-search__search{
 	border: none;
 	outline: none;
 	width: 85%;
@@ -70,25 +66,25 @@ body{
 	font-size: 16px;
 }
 
-.top-row__button{
+.block-search__button{
 	height: 20px;
 	width: 20px;
 	cursor: pointer;
+	position: relative;
+	bottom: 7px;
+	right: 31px;
 	visibility: hidden;
 }
 
-.top-row__button:after{
+.block-search__button:before{
 	content: url(../../src/img/find_icon.png);
 	height: 20px;
 	width: 20px;
-	position: relative;
-	bottom: 8px;
-	right: 32px;
 	visibility: visible;
 }
 
 .options{
-	line-height: 36px;
+	line-height: 2.7em;
 	padding: 44px 0 0 98px;
 }
 
@@ -96,7 +92,7 @@ body{
 	display: inline-block;
 }
 
-.check-in__select_input{
+.check-in__input{
 	height: 44px;
 	width: 299px;
 	border-radius: 2px;
@@ -108,20 +104,15 @@ body{
 	padding-left: 5px;
 }
 
-.check-out__select_input{
+.check-out__input{
 	height: 44px;
 	width: 299px;
 	border-radius: 2px;
 	border: 1px solid;
 }
 
-.checkbox-children{
-	display: inline-block;
-	padding-left: 6px;
-}
-
 .row-select{
-	height: 50px;
+	height: 46px;
 	width: 106px;
 	padding-left: 16px;
 	border-radius: 2px;
@@ -133,9 +124,10 @@ body{
 	background: url(../../src/img/arrow_down.png) 85% 60% no-repeat;
 }
 
-.checkbox-adult{
+.checkbox{
 	display: inline-block;
-	padding-left: 38px;
+	margin-left: 6px;
+	transform: translateX(29px); 
 }
 
 .btn{
@@ -174,32 +166,25 @@ body{
 
 .options__checkbox{
 	text-align: center;
-	padding: 41px 0 0 20px;
+	padding: 43px 12px 0 0;
 	font-size: 16px;
 }
 
-.checkbox-label{
-	padding-left: 30px;
-}
-
-.checkbox {
-    display: none;
-}
-
-.checkbox-custom {
+.checkbox-custom{
     width: 21px;
     height: 21px;
     border: 2px solid #35363c;
     cursor: pointer;
+    display: inline-block;
 }
 
 .checkbox-custom,
-.checkbox-label {
-    display: inline-block;
+.checkbox-label{
     vertical-align: middle;
+    margin-left: 11px; 
 }
 
-.checkbox:checked + .checkbox-custom:before {
+.checkbox-plane:checked + .checkbox-custom:before{
     content: "";
     position: relative;
     display: flex;
@@ -217,13 +202,23 @@ body{
 	right: 6px;
 }
 
-.checkbox-label:after{
+.checkbox-label:before{
 	content: url(../../src/img/plane.png);
 	position: relative;
-	right: 299px;
+	right: 5px;
+	top: 3px;
 }
 
 option{
 	background: #1e1f26;
 	color: #fff;
+}
+
+.checkbox-plane{
+	display: none;
+}
+
+
+.row-select:focus, .row-select:before{
+	background: url(../../src/img/arrow_up.png) 85% 60% no-repeat; 
 }
