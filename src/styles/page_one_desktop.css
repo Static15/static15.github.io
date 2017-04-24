@@ -222,3 +222,147 @@ option{
 .row-select:focus, .row-select:before{
 	background: url(../../src/img/arrow_up.png) 85% 60% no-repeat; 
 }
+
+.preloder{
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: black;
+  height: 100%;
+  width: 100%;
+  transition: 1s all easy;
+  opacity: 1;
+  visibility: visible;
+  z-index: 5;
+}
+
+.done{
+  opacity: 0;
+  visibility: hidden;
+}
+
+.circle, .circle:before, .circle:after{
+  border: 3px solid transparent;
+/*   border: 3px solid greeen; */
+  border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.circle{
+  height: 110px;
+  width: 110px;
+  margin: 200px auto;
+  position: relative;
+  border-top-color: gold;
+  animation-name: spin;
+  -o-border-animation-name: spin;
+  -ms-border-animation-name: spin;
+  -webkit-animation-name: spin;
+  -moz-border-animation-name: spin;
+  animation-duration:1.1s;
+  -o-border-animation-duration:1.1s;
+  -ms-border-animation-duration:1.1s;
+  -webkit-animation-duration:1.1s;
+  -moz-border-animation-duration:1.1s;
+  animation-iteration-count: infinite;
+  -o-border-animation-iteration-count: infinite;
+  -ms-border-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-border-animation-iteration-count: infinite;
+  animation-direction: normal;
+  -o-border-animation-direction: normal;
+  -ms-border-animation-direction: normal;
+  -webkit-animation-direction: normal;
+  -moz-border-animation-direction: normal;
+}
+
+.circle:before, .circle:after{
+  content: "";
+  position: absolute;
+}
+
+.circle:before{
+  top: 10px;
+  left:10px;
+  bottom: 10px;
+  right: 10px;
+  border-top-color: red;
+  animation-name: spin;
+  -o-border-animation-name: spin;
+  -ms-border-animation-name: spin;
+  -webkit-animation-name: spin;
+  -moz-border-animation-name: spin;
+  animation-duration:2.1s;
+  -o-border-animation-duration:1.1s;
+  -ms-border-animation-duration:1.1s;
+  -webkit-animation-duration:1.1s;
+  -moz-border-animation-duration:1.1s;
+  animation-iteration-count: infinite;
+  -o-border-animation-iteration-count: infinite;
+  -ms-border-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-border-animation-iteration-count: infinite;
+  animation-direction: normal;
+  -o-border-animation-direction: normal;
+  -ms-border-animation-direction: normal;
+  -webkit-animation-direction: normal;
+  -moz-border-animation-direction: normal;
+  -o-border-animation-duration: 2.1s;
+  -ms-border-animation-duration: 2.1s;
+  -moz-border-animation-duration: 2.1s;
+  -moz-border-animation-duration: 2.1s;
+  animation-duration: 2.1s;
+}
+
+.circle:after{
+  top: 23px;
+  left:23px;
+  bottom: 23px;
+  right: 23px;
+  border-top-color: indigo;
+  animation-name: spin;
+  -o-border-animation-name: spin;
+  -ms-border-animation-name: spin;
+  -webkit-animation-name: spin;
+  -moz-border-animation-name: spin;
+  animation-delay: 1.3s;
+  -o-border-animation-delay: 1.3s;
+  -ms-border-animation-delay: 1.3s;
+  -webkit-animation-delay: 1.3s;
+  -moz-border-animation-delay: 1.3s;
+  animation-duration:3.1s;
+  -o-border-animation-duration:1.1s;
+  -ms-border-animation-duration:1.1s;
+  -webkit-animation-duration:1.1s;
+  -moz-border-animation-duration:1.1s;
+  animation-iteration-count: infinite;
+  -o-border-animation-iteration-count: infinite;
+  -ms-border-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-border-animation-iteration-count: infinite;
+  animation-direction: normal;
+  -o-border-animation-direction: normal;
+  -ms-border-animation-direction: normal;
+  -webkit-animation-direction: normal;
+  -moz-border-animation-direction: normal;
+}
+
+@keyframes spin{
+  from{
+    transform: rotate(0deg);
+    -o-border-transform: rotate(0deg);
+    -ms-border-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-border-transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+    -o-border-transform: rotate(360deg);
+    -ms-border-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-border-transform: rotate(360deg);
+  }
+}
